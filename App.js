@@ -48,7 +48,6 @@ class App extends Component {
       <View style={styles.MainContainer}>
         <View style={{paddingBottom: 25, alignContent: 'center'}}>
           <Text style={styles.TextTitle}>This Generate QR Code React-Native Apps</Text>
-          <Text style={styles.TextTitle}>Made by Difa Sulthon</Text>
         </View>
         <TouchableOpacity onPress={this.saveQrToDisk}>
           <QRCode
